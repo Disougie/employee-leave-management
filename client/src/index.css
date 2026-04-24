@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-primary-light: #60a5fa;
+  --color-secondary: #0ea5e9;
+  --color-accent: #38bdf8;
+  
+  --color-bg-light: #f8fafc;
+  --color-bg-dark: #0f172a;
+  --color-surface-light: #ffffff;
+  --color-surface-dark: #1e293b;
+  
+  --color-text-light: #0f172a;
+  --color-text-dark: #f8fafc;
+  --color-text-muted-light: #64748b;
+  --color-text-muted-dark: #94a3b8;
+}
+
+@layer base {
+  :root {
+    --bg-color: var(--color-bg-light);
+    --surface-color: var(--color-surface-light);
+    --text-color: var(--color-text-light);
+    --text-muted: var(--color-text-muted-light);
+    --border-color: #e2e8f0;
+    --primary: var(--color-primary);
+  }
+
+  .dark {
+    --bg-color: var(--color-bg-dark);
+    --surface-color: var(--color-surface-dark);
+    --text-color: var(--color-text-dark);
+    --text-muted: var(--color-text-muted-dark);
+    --border-color: #334155;
+    --primary: var(--color-primary-light);
+  }
+
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-4 py-2 rounded-lg font-medium transition-all hover:bg-blue-700 hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 dark:bg-blue-500 dark:hover:bg-blue-400;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-blue-600 border border-blue-200 px-4 py-2 rounded-lg font-medium transition-all hover:bg-blue-50 hover:border-blue-300 dark:bg-slate-800 dark:text-blue-400 dark:border-slate-600 dark:hover:bg-slate-700;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 rounded-lg border border-[var(--border-color)] bg-[var(--surface-color)] text-[var(--text-color)] focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all outline-none;
+  }
+
+  .card {
+    @apply bg-[var(--surface-color)] border border-[var(--border-color)] rounded-xl shadow-sm transition-all hover:shadow-md;
+  }
+}
