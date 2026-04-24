@@ -23,10 +23,28 @@ A robust **Full-Stack MERN** application designed to streamline company leave re
 
 ---
 
+## ✨ Screenshots
 
+### Login
+<img width="1366" height="728" alt="login" src="https://github.com/user-attachments/assets/51718760-ce66-4c83-ba7e-c9c3ef914cb0" />
 
+### Manager Dashboard
+<img width="1366" height="728" alt="manager-dashbord" src="https://github.com/user-attachments/assets/95ef1c4e-8c62-4c35-b87e-51c9011a0934" />
 
+### Add Employee
+<img width="1366" height="728" alt="add-employee" src="https://github.com/user-attachments/assets/cc62c2a0-e087-4498-8d8e-a5cb5c695e2f" />
 
+### Manager Analytics
+<img width="1366" height="728" alt="manager-analytics-1" src="https://github.com/user-attachments/assets/3e302de2-a2b2-4fa4-b816-3a6227f392f1" />
+
+### Manager Calendar
+<img width="1366" height="728" alt="manager-calender" src="https://github.com/user-attachments/assets/0bf6224b-1ce2-4f03-9dac-516eaa405e94" />
+
+### Employee Leave Request
+<img width="1366" height="728" alt="request-leave" src="https://github.com/user-attachments/assets/bf609ad1-a6a1-457c-a0c6-5b5fea2c9d50" />
+
+### Employee Dashboard
+<img width="1366" height="728" alt="employee-dashbord" src="https://github.com/user-attachments/assets/419922d8-72aa-4d02-bba9-4628c4d9ba04" />
 
 ---
 
